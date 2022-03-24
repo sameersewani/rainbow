@@ -1,0 +1,18 @@
+.show{
+    width: 60vw;  
+    height:30vw;
+    position:relative;
+    overflow:hidden;  
+    background:black;
+} 
+.show:after{
+    content:'';
+    position:absolute;
+    width:50%;
+    height:100%;    
+    border-radius: 50%;
+    left:25%;
+    top:50%;
+    box-shadow: 0 0 0 2vw #00FFFF, 0 0 0 4vw #0000FF, 0 0 0 6vw lightblue, 0 0 0 8vw #00008B, 0 0 0 10vw #98AFC7, 0 0 0 12vw #566D7E ,  0 0 0 14vw #0909FF;
+} 
+
